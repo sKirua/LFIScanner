@@ -7,7 +7,7 @@ print "=                                                                        
 print "=                   Vespa LFI_scanner  0.1                               =\n";
 print "=                  ~[Vespa Corporation scanner by Kirua]~                =\n";
 print "=                                                                        =\n";
-print "= tu l'utulise comme ça fdp: www.tonvieuxsite.com/index.php?id=          =\n";
+print "= exploit: www.tonvieuxsite.com/index.php?id=                            =\n";
 print "=                                                                                                         =\n";
 print "===================Kirua Vespa 2018==================\n\n";
 print '>';chomp($link = <STDIN>);if($link !~ /http:\/\//) { $link = "http://$link"; }

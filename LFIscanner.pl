@@ -353,7 +353,8 @@ $start =<STDIN>;
 '/var/log/exim_paniclog',
 '/var/log/exim/paniclog',
 '/var/log/exim/rejectlog',
-'/var/log/exim_rejectlog');print ">Début du scan att fdp[...]\n";
+'/var/log/exim_rejectlog');
+print ">Début du scan att fdp[...]\n";
 
 foreach $scan(@vuls){$url = $link.$scan;
 $request = HTTP::Request->new(GET=>$url);
